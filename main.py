@@ -244,7 +244,7 @@ def customer(username, password):
 
 
         st.subheader("Drug: " + drug_result[1][0])
-        img = Image.open('images/strepsils.jpg')
+        img = Image.open('search-ms:displayname=Search%20Results%20in%20Pharmacy_Management_System-main&crumb=location:C%3A%5Cdb3%5CPharmacy_Management_System-main\images')
         st.image(img, width=100 , caption="Rs. 10/-")
         strepsils = st.slider(label="Quantity",min_value=0, max_value=5, key= 2)
         st.info("When to USE: " + str(drug_result[1][2]))
